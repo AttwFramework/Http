@@ -87,11 +87,10 @@ class Cookies
      * Verify if a cookie exists
      *
      * @param string $name Cookie name
-     *
      * @return boolean
     */
     public function exists($name)
     {
-        return array_key_exists($_COOKIE, $name);
+        return array_key_exists($name, $_COOKIE);
     }
 }
