@@ -11,6 +11,7 @@ namespace Attw\Http;
 
 use Attw\Http\Request\Method\RequestsCollection;
 use Attw\Tool\Collection\ArrayCollection;
+use Arrw\Http\Request\Exception\RequestException;
 
 /**
  * Request handler
