@@ -3,6 +3,15 @@ HTTP
 [![Total Downloads](https://poser.pugx.org/attwframework/http/downloads.png)](https://packagist.org/packages/attwframework/http) [![Latest Unstable Version](https://poser.pugx.org/attwframework/http/v/unstable.png)](https://packagist.org/packages/attwframework/http) [![License](https://poser.pugx.org/attwframework/http/license.png)](https://packagist.org/packages/attwframework/http)
 
 HTTP component of [AttwFramework](https://github.com/attwframework/framework).
+##Composer
+###Download
+```json
+{
+    "require": {
+        "attwframework/http": "dev-master"
+    }
+}
+```
 ##How to use
 ###Request
 This class exists to handle HTTP requests.
