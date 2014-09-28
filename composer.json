@@ -18,8 +18,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Attw\\Http": "/",
-            "Attw\\Tool": "../tool"
+            "Attw\\Http\\": "/",
+            "Attw\\Tool\\": "../tool"
         }
     }
 }
